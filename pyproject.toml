@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fortnite-encoder"
+version = "0.1.0"
+description = "Leakage-safe spatiotemporal encoder inputs for Fortnite Parquet v2 matches"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2",
+    "pyarrow>=24",
+    "torch>=2.12",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=9"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]

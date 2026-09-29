@@ -1,0 +1,70 @@
+{
+  "schema_version": "fncs-redacted-lifecycle-regression-fixture:1.0",
+  "source": {
+    "description": "Exact failing lifecycle interval with identifiers and team number redacted",
+    "sample_times_preserved": true,
+    "event_times_preserved": true,
+    "alive_and_life_index_preserved": true,
+    "coordinates_redacted": true
+  },
+  "player_samples": [
+    {
+      "session_id": "redacted-session",
+      "player_id": "redacted-player",
+      "team_id": 1,
+      "match_time_seconds": 580.0,
+      "alive": false,
+      "life_index": 1,
+      "x": null,
+      "y": null,
+      "z": null
+    },
+    {
+      "session_id": "redacted-session",
+      "player_id": "redacted-player",
+      "team_id": 1,
+      "match_time_seconds": 585.0,
+      "alive": false,
+      "life_index": 2,
+      "x": null,
+      "y": null,
+      "z": null
+    }
+  ],
+  "player_events": [
+    {
+      "session_id": "redacted-session",
+      "player_id": "redacted-player",
+      "team_id": 1,
+      "match_time_seconds": 580.8084365315735,
+      "event_type": "reboot",
+      "life_index": 2,
+      "x": null,
+      "y": null,
+      "z": null,
+      "zone_phase": null,
+      "zone_basis": null,
+      "location_quality": null
+    },
+    {
+      "session_id": "redacted-session",
+      "player_id": "redacted-player",
+      "team_id": 1,
+      "match_time_seconds": 584.970492623231,
+      "event_type": "death",
+      "life_index": 2,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "zone_phase": null,
+      "zone_basis": null,
+      "location_quality": "replay_event"
+    }
+  ],
+  "expected": {
+    "collapsed_transition_count": 1,
+    "current_alive": false,
+    "current_life_index": 2,
+    "legacy_exception": "a new life must begin alive"
+  }
+}
