@@ -1,0 +1,241 @@
+{
+  "created_utc": "2026-09-02T21:41:39.513389+00:00",
+  "diagnostic_correction": {
+    "affected_metric": "minADE@5 only",
+    "cause": "Combined basic/advanced NumPy indexing reordered mode and horizon axes.",
+    "corrected_value_meters": 47.39470541539454,
+    "cross_check": "matches the finalized epoch-20 training diagnostic within 2e-6",
+    "frozen_helper_value_meters": 18.517185733831962,
+    "locked_evaluator_or_metrics_source_modified": false,
+    "status": "corrected_in_unfrozen_reporting_layer"
+  },
+  "highest_probability_route_mode_mean_point_metrics": {
+    "ade_meters": 75.12799876642052,
+    "aggregate_trajectory_hit_rate_through_horizon": {
+      "15": {
+        "within_1_cells": 0.9344711143561194,
+        "within_2_cells": 0.9911472118280551,
+        "within_4_cells": 0.9971707584192754
+      },
+      "30": {
+        "within_1_cells": 0.8115915278482765,
+        "within_2_cells": 0.9663605740390383,
+        "within_4_cells": 0.9945087905495824
+      },
+      "45": {
+        "within_1_cells": 0.7209273339149944,
+        "within_2_cells": 0.9204163031285055,
+        "within_4_cells": 0.9896547426149819
+      },
+      "60": {
+        "within_1_cells": 0.6529989352892465,
+        "within_2_cells": 0.8745534129894712,
+        "within_4_cells": 0.9823967822075003
+      }
+    },
+    "fde_60_meters": 127.72522990687654,
+    "last_valid_horizon_fde_meters": 121.33038903169292,
+    "nonfinite_scored_error_count": 0,
+    "per_horizon": {
+      "10": {
+        "mean_euclidean_error_meters": 31.384183298555307,
+        "trajectory_hit_rate": {
+          "within_1_cells": 0.9493289509723364,
+          "within_2_cells": 0.9942481511914544,
+          "within_4_cells": 0.9975349219391948
+        },
+        "valid_target_count": 3651
+      },
+      "15": {
+        "mean_euclidean_error_meters": 44.52514960796342,
+        "trajectory_hit_rate": {
+          "within_1_cells": 0.8618312189740761,
+          "within_2_cells": 0.9820739106453392,
+          "within_4_cells": 0.9955874241588527
+        },
+        "valid_target_count": 3626
+      },
+      "20": {
+        "mean_euclidean_error_meters": 55.936276570346735,
+        "trajectory_hit_rate": {
+          "within_1_cells": 0.7583333333333333,
+          "within_2_cells": 0.9677777777777777,
+          "within_4_cells": 0.9938888888888889
+        },
+        "valid_target_count": 3600
+      },
+      "25": {
+        "mean_euclidean_error_meters": 66.17343915177693,
+        "trajectory_hit_rate": {
+          "within_1_cells": 0.6783314669652856,
+          "within_2_cells": 0.9456886898096305,
+          "within_4_cells": 0.9916013437849944
+        },
+        "valid_target_count": 3572
+      },
+      "30": {
+        "mean_euclidean_error_meters": 75.71606209046996,
+        "trajectory_hit_rate": {
+          "within_1_cells": 0.6199887069452287,
+          "within_2_cells": 0.9090909090909091,
+          "within_4_cells": 0.9898362507058159
+        },
+        "valid_target_count": 3542
+      },
+      "35": {
+        "mean_euclidean_error_meters": 86.13540548185694,
+        "trajectory_hit_rate": {
+          "within_1_cells": 0.5759132420091324,
+          "within_2_cells": 0.8618721461187214,
+          "within_4_cells": 0.9843036529680366
+        },
+        "valid_target_count": 3504
+      },
+      "40": {
+        "mean_euclidean_error_meters": 95.98182520594717,
+        "trajectory_hit_rate": {
+          "within_1_cells": 0.5293778801843319,
+          "within_2_cells": 0.8202764976958525,
+          "within_4_cells": 0.9801267281105991
+        },
+        "valid_target_count": 3472
+      },
+      "45": {
+        "mean_euclidean_error_meters": 104.46247833881661,
+        "trajectory_hit_rate": {
+          "within_1_cells": 0.4911465892597968,
+          "within_2_cells": 0.7918722786647315,
+          "within_4_cells": 0.9741654571843251
+        },
+        "valid_target_count": 3445
+      },
+      "5": {
+        "mean_euclidean_error_meters": 17.315992054844322,
+        "trajectory_hit_rate": {
+          "within_1_cells": 0.991304347826087,
+          "within_2_cells": 0.9970108695652173,
+          "within_4_cells": 0.9983695652173913
+        },
+        "valid_target_count": 3680
+      },
+      "50": {
+        "mean_euclidean_error_meters": 112.45892422722123,
+        "trajectory_hit_rate": {
+          "within_1_cells": 0.4588579795021962,
+          "within_2_cells": 0.7613469985358712,
+          "within_4_cells": 0.9686676427525622
+        },
+        "valid_target_count": 3415
+      },
+      "55": {
+        "mean_euclidean_error_meters": 120.11358971035747,
+        "trajectory_hit_rate": {
+          "within_1_cells": 0.439563679245283,
+          "within_2_cells": 0.7270047169811321,
+          "within_4_cells": 0.9599056603773585
+        },
+        "valid_target_count": 3392
+      },
+      "60": {
+        "mean_euclidean_error_meters": 127.72522990687654,
+        "trajectory_hit_rate": {
+          "within_1_cells": 0.4174093879976233,
+          "within_2_cells": 0.7008318478906714,
+          "within_4_cells": 0.9497920380273321
+        },
+        "valid_target_count": 3366
+      }
+    },
+    "valid_query_count": 3680,
+    "valid_target_count": 42265
+  },
+  "mode_utilization": {
+    "argmax_mode_counts": [
+      896,
+      159,
+      0,
+      989,
+      1636
+    ],
+    "effective_number_of_used_modes": {
+      "global_exp_entropy_of_mean_probabilities": 4.8523549393232575,
+      "mean_per_query_exp_entropy": 4.740261674151984,
+      "minimum_per_query_exp_entropy": 4.258724167662604
+    },
+    "mean_mode_probabilities": [
+      0.22346918872233643,
+      0.19549843137678893,
+      0.11578874549140102,
+      0.20797364200141444,
+      0.2572699936633201
+    ],
+    "mean_pairwise_mode_separation_cells": 0.8179602383799934,
+    "mode_collapse_counts": {
+      "modes_never_selected_as_top_mode": 1,
+      "queries_with_max_probability_at_least_0_98": 0,
+      "queries_with_mean_pairwise_separation_below_0_25_cell": 257
+    },
+    "mode_probability_entropy_nats": {
+      "maximum": 1.6032855966780026,
+      "mean": 1.5559011724968783,
+      "minimum": 1.4489696242658323
+    },
+    "nonfinite_prediction_counts": {
+      "mode_coordinates": 0,
+      "mode_probabilities": 0
+    }
+  },
+  "oracle_best_of_five_diagnostic_only": {
+    "minADE@5_meters": 47.39470541539454,
+    "minFDE@5_meters": 71.05246031891333,
+    "used_for_baseline_superiority_claims": false,
+    "used_for_checkpoint_selection": false,
+    "valid_query_count": 3680
+  },
+  "payload_sha256": "c4489c006eaf054f85698fd5c7e436af4fe291624fb7903c1f236fa75c30016c",
+  "prediction_quality_counts": {
+    "all_five_mode_means": {
+      "nonfinite_all_output_slots": 0,
+      "nonfinite_scored_slots": 0,
+      "out_of_envelope_all_output_slots": 0,
+      "out_of_envelope_scored_slots": 0
+    },
+    "highest_probability_mode_mean": {
+      "nonfinite_all_output_slots": 0,
+      "nonfinite_scored_slots": 0,
+      "out_of_envelope_all_output_slots": 0,
+      "out_of_envelope_scored_slots": 0
+    },
+    "inference_nonfinite_counts": {
+      "correlations": 0,
+      "means": 0,
+      "probabilities": 0,
+      "route_nll": 0,
+      "scales": 0
+    }
+  },
+  "raw_arrays": {
+    "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\raw_validation\\final_step9200.npz",
+    "read_only": false,
+    "sha256": "6d4e98e67ba2b6b134b0f9c3bc911ff2727b28acdbd6eecfcd436de502d60c01",
+    "size_bytes": 1549461
+  },
+  "route_level_mixture_nll": 7.004335993010065,
+  "schema_version": "fncs-decoder-evaluation-metrics:1.0",
+  "target_mask_counts": {
+    "eliminated": 1290,
+    "lifecycle_ambiguous": 0,
+    "missing": 0,
+    "nonfinite": 0,
+    "out_of_envelope": 0,
+    "phase_9_terminal": 605,
+    "raw_reason_counts": {
+      "phase_9_terminal": 101,
+      "team_eliminated": 213,
+      "terminal_suffix_after_phase_9_terminal": 504,
+      "terminal_suffix_after_team_eliminated": 1077,
+      "valid": 42265
+    },
+    "valid": 42265
+  }
+}

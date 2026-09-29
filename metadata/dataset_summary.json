@@ -1,0 +1,17 @@
+{
+  "schema_version": "public-fncs-dataset-summary:1.0",
+  "dataset_schema_version": "2.0.0",
+  "accepted_canonical_sessions": 1150,
+  "accepted_with_warning_sessions": 1150,
+  "unattested_sessions": 1150,
+  "rejected_replay_payloads": 1357,
+  "split_counts": {
+    "train": 920,
+    "validation": 115,
+    "test": 115
+  },
+  "ingestion_report_sha256": "08c88bc74f63315fea4c4e92f847be04098212beff4cb9befacf00b82d22c779",
+  "dataset_validation_sha256": "d846b2a7b1080b471ab7017b5b74943215cf7405f987baffe9aa8a8e34b1c690",
+  "split_manifest_sha256": "6739657a0b8c613c04d22412b2cb489dc200e9832b7f501e5321b67e6f7e1b01",
+  "note": "Aggregate metadata only; raw replay and Parquet sessions are not included."
+}

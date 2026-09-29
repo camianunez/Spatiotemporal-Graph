@@ -1,0 +1,15 @@
+{
+  "schema_version": "public-world-grid-summary:1.0",
+  "profile_path": "configs/world-grid/model-world-grid-v1.json",
+  "profile_sha256": "023cf6ec2ccdba61cf6a637ff8f80e0b4d3a390efdeaa7fab1efc3eb546aa2a9",
+  "profile_payload_sha256": "398e24034b574fd2306db3f975e0d218480d2485cb8c2b19e6ca80340a931bee",
+  "source_audit_sha256": "9946e056dd1ab4907027a46bd07c5abb837e5464c49e44a3704c53b1967ccf1e",
+  "source_audit_payload_sha256": "9308686e890bbb39a4b264fea0273602a27150f519eca11b5a1ee99a2c2f4e3c",
+  "coordinate_audit_sha256": "fe617bbba2bc92583dac58068b36d3c0ed4a3f36147c7ab098ebcec1f103c7aa",
+  "inspected_replay_count": 63,
+  "replay_counts_by_build": {
+    "41.10": 51,
+    "41.20": 12
+  },
+  "note": "The full session-level audit is not included in this source snapshot."
+}

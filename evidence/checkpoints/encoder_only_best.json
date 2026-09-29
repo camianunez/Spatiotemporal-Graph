@@ -1,0 +1,7 @@
+{
+  "encoder_state_sha256": "a70edc067a0b4e284b93b4a60ae472d0f2d9b4bc226143feecd841a505a9489f",
+  "optimizer_step": 4370,
+  "path": "C:\\Users\\c\\Documents\\FN\\runs\\encoder-fncs-pilot-20260817-fresh-run-3\\encoder-only-best.pt",
+  "raw_sha256": "71c48713546c60aaf7573eacd199f8972c2fd012c9375c2296d89cff2d78cfb5",
+  "tensor_count": 124
+}

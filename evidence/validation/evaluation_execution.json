@@ -1,0 +1,155 @@
+{
+  "command": "python -m fortnite_parallel_trajectory_posttraining.evaluate evaluate final_step9200",
+  "created_utc": "2026-09-02T21:41:39.584316+00:00",
+  "durable_timestamps": {
+    "baseline_completed_utc": "2026-09-02T21:17:09.953070+00:00",
+    "model_completed_utc": "2026-09-02T21:18:22.900745+00:00",
+    "model_started_utc": "2026-09-02T21:17:11.124313+00:00"
+  },
+  "environment": {
+    "cuda_available": true,
+    "cuda_device": "NVIDIA GeForce RTX 4090",
+    "cuda_runtime": "13.0",
+    "inference_precision": "CUDA BF16 autocast with FP32 route NLL",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.12.1+cu130"
+  },
+  "frozen_source_integrity": {
+    "evaluator_matches_locked_contract": true,
+    "evaluator_sha256": "917e9a1c10b8e5bafbdc790b77cb82d35881a315e234a150cd33b38c362e2fc4",
+    "locked_contracts_rewritten": false,
+    "protected_encoder_decoder_training_target_checkpoint_code_modified": false
+  },
+  "payload_sha256": "1ac779e3b3be9ef44c236d494866113c854e5d80fb39d178e77bace936ac1d95",
+  "prohibited_actions": {
+    "backward_called": false,
+    "checkpoint_modified": false,
+    "model_parameters_modified": false,
+    "optimizer_constructed": false,
+    "pid_42044_touched_or_terminated": false,
+    "scale_study_model_launched": false,
+    "scheduler_advanced": false,
+    "training_census_resumed": false,
+    "training_resumed": false
+  },
+  "report_command": "python -m fortnite_parallel_trajectory_posttraining.report validation-only",
+  "schema_version": "fncs-decoder-evaluation-execution:1.0",
+  "source_changes": [
+    {
+      "new_sha256": "1ad74904307b48918feab93617acf1d6fdc788ce30038211231efcd2b4809c51",
+      "old_sha256": "a406fc157a2f295ad5b3b3decb7b9658e2b095b100203c808e59c18962455f7a",
+      "path": "ml/src/fortnite_parallel_trajectory_posttraining/report.py",
+      "reason": "Added validation-only output assembly and corrected minADE@5 in the unfrozen reporting layer; locked evaluation sources remain unchanged."
+    },
+    {
+      "new_sha256": "ebe9ed7ef458d546671081912fdb23c995b58fba423d1c215b0e9e3370994d7b",
+      "old_sha256": null,
+      "path": "ml/tests/test_parallel_trajectory_posttraining_evaluation.py",
+      "reason": "Added focused synthetic/unit qualification coverage."
+    }
+  ],
+  "status": "completed",
+  "tooling_qualification": {
+    "covered_behaviors": [
+      "strict checkpoint loading",
+      "static-position forecasts",
+      "constant-velocity forecasts and fallback",
+      "query and horizon masking",
+      "ADE and FDE",
+      "trajectory hit rates",
+      "route-NLL reduction",
+      "paired session-level bootstrap",
+      "data-access denial before reader",
+      "correct mode-wise minADE@5"
+    ],
+    "focused_test_artifact": {
+      "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\posttraining_evaluation_qualification.xml",
+      "read_only": false,
+      "sha256": "e73d674b21134a9fa6d43174e7e9a694ebe4ece69ffe7b6376a681918608ba45",
+      "size_bytes": 1334
+    },
+    "focused_tests": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 7
+    },
+    "initial_harness_retry": "The first run had two pytest tmp_path setup errors because the global temporary directory was sandbox-denied; rerunning with a workspace-local basetemp passed, and no product-code failure occurred.",
+    "package_file_count": 12,
+    "package_files": [
+      {
+        "path": "C:\\Users\\c\\Documents\\FN\\ml\\src\\fortnite_parallel_trajectory_posttraining\\__init__.py",
+        "read_only": false,
+        "sha256": "3340f9ee82441802df4f9d85067bc421ab796e6e789086d43c284d50502e33ac",
+        "size_bytes": 149
+      },
+      {
+        "path": "C:\\Users\\c\\Documents\\FN\\ml\\src\\fortnite_parallel_trajectory_posttraining\\audit.py",
+        "read_only": false,
+        "sha256": "4ea38c32ba935c658aa131b4449d2a02693dec063a94d0b136e8483fdc5135e7",
+        "size_bytes": 14857
+      },
+      {
+        "path": "C:\\Users\\c\\Documents\\FN\\ml\\src\\fortnite_parallel_trajectory_posttraining\\bindings.py",
+        "read_only": false,
+        "sha256": "4f2f1359ee65fc7b27a7cd4d11efb211e6d5dfe6ddf0540a47ef2ea9d8aa8206",
+        "size_bytes": 644
+      },
+      {
+        "path": "C:\\Users\\c\\Documents\\FN\\ml\\src\\fortnite_parallel_trajectory_posttraining\\common.py",
+        "read_only": false,
+        "sha256": "443dca9432261998da21a264a03bf341d27dc831475da2a7504b6966daaeb591",
+        "size_bytes": 8595
+      },
+      {
+        "path": "C:\\Users\\c\\Documents\\FN\\ml\\src\\fortnite_parallel_trajectory_posttraining\\contracts.py",
+        "read_only": false,
+        "sha256": "42e4ae5b5398b7bbf7885f2fcf51d6c74ba47cac0e151b38e9634b85b1e1cc6b",
+        "size_bytes": 24837
+      },
+      {
+        "path": "C:\\Users\\c\\Documents\\FN\\ml\\src\\fortnite_parallel_trajectory_posttraining\\evaluate.py",
+        "read_only": false,
+        "sha256": "917e9a1c10b8e5bafbdc790b77cb82d35881a315e234a150cd33b38c362e2fc4",
+        "size_bytes": 43680
+      },
+      {
+        "path": "C:\\Users\\c\\Documents\\FN\\ml\\src\\fortnite_parallel_trajectory_posttraining\\finalize.py",
+        "read_only": false,
+        "sha256": "c39efa73803192a626d8c9c797d814deca935caea792268d4ce42e0e0cc6da38",
+        "size_bytes": 39075
+      },
+      {
+        "path": "C:\\Users\\c\\Documents\\FN\\ml\\src\\fortnite_parallel_trajectory_posttraining\\historical.py",
+        "read_only": false,
+        "sha256": "f1ea2363eb97c49c272b2b628a20647c2da3b8d74f65ae0cadc56f66599027f2",
+        "size_bytes": 12869
+      },
+      {
+        "path": "C:\\Users\\c\\Documents\\FN\\ml\\src\\fortnite_parallel_trajectory_posttraining\\metrics.py",
+        "read_only": false,
+        "sha256": "76ac48e0f69ae84e718372a5d5ba1409225425dba8e34f7b5562a9258410a04e",
+        "size_bytes": 16541
+      },
+      {
+        "path": "C:\\Users\\c\\Documents\\FN\\ml\\src\\fortnite_parallel_trajectory_posttraining\\prepare.py",
+        "read_only": false,
+        "sha256": "699f6556e24fd20b30f391568141e6b92370311cadedd19b272d3c9c15b057ef",
+        "size_bytes": 23692
+      },
+      {
+        "path": "C:\\Users\\c\\Documents\\FN\\ml\\src\\fortnite_parallel_trajectory_posttraining\\report.py",
+        "read_only": false,
+        "sha256": "1ad74904307b48918feab93617acf1d6fdc788ce30038211231efcd2b4809c51",
+        "size_bytes": 82536
+      },
+      {
+        "path": "C:\\Users\\c\\Documents\\FN\\ml\\src\\fortnite_parallel_trajectory_posttraining\\scale.py",
+        "read_only": false,
+        "sha256": "83ea1ee1b706a00fa70654569ab818b93c31100aab63fb32fde52335699a5dd5",
+        "size_bytes": 27967
+      }
+    ]
+  }
+}

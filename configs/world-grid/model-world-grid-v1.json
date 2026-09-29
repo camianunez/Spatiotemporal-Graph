@@ -1,0 +1,77 @@
+{
+  "schema_version": "2.0",
+  "profile_id": "model-world-grid-v1",
+  "profile_kind": "engineered_model_world_partition",
+  "authoritative_terrain_bounds": false,
+  "compatible_builds": [
+    "41.10",
+    "41.20"
+  ],
+  "world_identity": "/Hera_Map/Maps/Hera_V2_Terrain",
+  "world_x_min": -131072,
+  "world_x_max": 131072,
+  "world_y_min": -131072,
+  "world_y_max": 131072,
+  "grid_rows": 32,
+  "grid_columns": 32,
+  "column_axis": "x",
+  "row_axis": "y",
+  "column_direction": "increasing",
+  "row_direction": "increasing",
+  "inclusive_maximum_bounds": true,
+  "cell_ordering": "row_major",
+  "lattice_origin_x": 0,
+  "lattice_origin_y": 0,
+  "lattice_spacing_world_units": 512,
+  "cell_width_world_units": 8192,
+  "cell_height_world_units": 8192,
+  "world_unit_scale": {
+    "meters_per_world_unit": 0.01,
+    "semantic_source": "Epic Unreal Units documentation",
+    "source_url": "https://dev.epicgames.com/documentation/fortnite/unreal-units"
+  },
+  "publication_audit": {
+    "report_id": "model-world-grid-v1-publication-audit",
+    "audit_sha256": "9308686e890bbb39a4b264fea0273602a27150f519eca11b5a1ee99a2c2f4e3c",
+    "coordinate_audit_sha256": "fe617bbba2bc92583dac58068b36d3c0ed4a3f36147c7ab098ebcec1f103c7aa"
+  },
+  "evidence": [
+    {
+      "kind": "engineered_definition",
+      "subject": "model_world_partition",
+      "source": "model-world-grid-v1",
+      "semantics": "Deliberately fixed [-131072,131072] inclusive XY envelope with 32 by 32 row-major 8192-unit cells; it is not an authoritative terrain boundary."
+    },
+    {
+      "kind": "replay_metadata",
+      "subject": "reported_metadata_containment",
+      "source": "/Script/FortniteGame.FortPoiManager.WorldGridStart; /Script/FortniteGame.FortPoiManager.WorldGridEnd; ReplayHeader.LevelNamesAndTimes[0]",
+      "semantics": "All 63 exact supported replay/build/world records report finite metadata extents contained by the engineered envelope; their conflicting tuples and failed canonicalization remain diagnostics."
+    },
+    {
+      "kind": "coverage_audit",
+      "subject": "model_visible_coordinate_coverage",
+      "source": "accepted dataset-v2 absolute XY streams",
+      "semantics": "Coverage-only audit of player samples, player events, team centroids, zone-phase source and target centers, and sampled current and target zone centers. Coordinates never define or expand the envelope."
+    },
+    {
+      "kind": "engineered_contract_v2",
+      "subject": "axis_mapping",
+      "source": "WorldGridProfile schema 2.0",
+      "semantics": "Raw X maps to columns and raw Y to rows; increasing values increase indices; exact maximum bounds map to the final cell."
+    },
+    {
+      "kind": "official_documentation",
+      "subject": "world_unit_scale",
+      "source": "https://dev.epicgames.com/documentation/fortnite/unreal-units",
+      "semantics": "One Unreal meter is 100 world units, so one world unit is 0.01 meters."
+    },
+    {
+      "kind": "official_documentation",
+      "subject": "coordinate_system",
+      "source": "https://dev.epicgames.com/documentation/en-us/unreal-engine/coordinate-system-and-spaces-in-unreal-engine",
+      "semantics": "Unreal world coordinates are Cartesian with a fixed world-space origin."
+    }
+  ],
+  "profile_hash": "398e24034b574fd2306db3f975e0d218480d2485cb8c2b19e6ca80340a931bee"
+}

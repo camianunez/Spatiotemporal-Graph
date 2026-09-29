@@ -1,0 +1,23 @@
+{
+  "schema_version": "public-model-weights:1.0",
+  "files": {
+    "decoder_state.pt": {
+      "source_checkpoint": "runs/parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-resume-1/best.pt",
+      "source_checkpoint_sha256": "7e210adfb5453511dd4cda35c1db968245921f8e08848fa51dfb035eaa07adc6",
+      "source_state_key": "downstream_state",
+      "tensor_count": 135,
+      "tensor_state_sha256": "b6cebbe5bd54e44cc3b531a676af0ea41ca1e373f0e86ed3df2f8be9112e2c8a",
+      "size_bytes": 25764863,
+      "sha256": "7c89d654d6c356ffcb5696452b8ede3afd20f9c7d327002fe36e929930eb4126"
+    },
+    "encoder_state.pt": {
+      "source_checkpoint": "runs/encoder-fncs-pilot-20260817-fresh-run-3/encoder-only-best.pt",
+      "source_checkpoint_sha256": "71c48713546c60aaf7573eacd199f8972c2fd012c9375c2296d89cff2d78cfb5",
+      "source_state_key": "encoder_state",
+      "tensor_count": 124,
+      "tensor_state_sha256": "a70edc067a0b4e284b93b4a60ae472d0f2d9b4bc226143feecd841a505a9489f",
+      "size_bytes": 20015187,
+      "sha256": "b4c66614d08dbf1c4e4ad6b2cafb78a939d87e17a270dc9801bcac78329d80ee"
+    }
+  }
+}

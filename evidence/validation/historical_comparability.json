@@ -1,0 +1,183 @@
+{
+  "created_utc": "2026-09-02T21:41:39.505367+00:00",
+  "current_dataset": {
+    "locked_validation_query_count": 3680,
+    "locked_validation_valid_target_count": 42265,
+    "locked_validation_valid_target_count_by_horizon_seconds": {
+      "10": 3651,
+      "15": 3626,
+      "20": 3600,
+      "25": 3572,
+      "30": 3542,
+      "35": 3504,
+      "40": 3472,
+      "45": 3445,
+      "5": 3680,
+      "50": 3415,
+      "55": 3392,
+      "60": 3366
+    },
+    "partial_exhaustive_training_census": {
+      "artifact_files": [
+        {
+          "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\training_subset_census_progress.jsonl",
+          "read_only": false,
+          "sha256": "21cef56b793c6a45247d31a712aca69c5e218c8d47c22af2ae0f2ca45026aa3e",
+          "size_bytes": 75425
+        },
+        {
+          "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\training_subset_census_shard_0_of_4.jsonl",
+          "read_only": false,
+          "sha256": "40c33268ef40ff459957a62fdb9e98e83564f637c3f18867c74f704ac83cfc14",
+          "size_bytes": 143106
+        },
+        {
+          "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\training_subset_census_shard_0_of_8.jsonl",
+          "read_only": false,
+          "sha256": "48c55e2c225fa74ba46dac8bd88d31d4d5962b58397d5cd160dc70753da0ed9c",
+          "size_bytes": 156273
+        },
+        {
+          "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\training_subset_census_shard_1_of_4.jsonl",
+          "read_only": false,
+          "sha256": "0092887b8b41379b37569db56c39f86c490cc17030f9b18b3dfc1a20b3b78a32",
+          "size_bytes": 140436
+        },
+        {
+          "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\training_subset_census_shard_1_of_8.jsonl",
+          "read_only": false,
+          "sha256": "4bcbb824034375caa879e060f5b30afed4b455f02599ae37f19b7b645b4f7881",
+          "size_bytes": 153604
+        },
+        {
+          "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\training_subset_census_shard_2_of_4.jsonl",
+          "read_only": false,
+          "sha256": "5e466f3601aacecaec1f21fc0f28473652dd8aea061f6d5f292cba235bbd2c96",
+          "size_bytes": 143151
+        },
+        {
+          "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\training_subset_census_shard_2_of_8.jsonl",
+          "read_only": false,
+          "sha256": "a0998feb8061e702ab27a9de053f660560702baf04d2659e777cef286bac5538",
+          "size_bytes": 158872
+        },
+        {
+          "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\training_subset_census_shard_3_of_4.jsonl",
+          "read_only": false,
+          "sha256": "086e1a0597783b3f1741f34ecd749a2407ba380f08e835bc3734c620a5992d76",
+          "size_bytes": 140546
+        },
+        {
+          "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\training_subset_census_shard_3_of_8.jsonl",
+          "read_only": false,
+          "sha256": "01a8b04752d170e71fad9b9279f9953947f923d38fee659196b7106c3a77ed3a",
+          "size_bytes": 158740
+        },
+        {
+          "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\training_subset_census_shard_4_of_8.jsonl",
+          "read_only": false,
+          "sha256": "ae7b8b7cac93f877e392b59681776ec92b7523229eac430238f547c0e28f60dd",
+          "size_bytes": 153552
+        },
+        {
+          "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\training_subset_census_shard_5_of_8.jsonl",
+          "read_only": false,
+          "sha256": "8deb1d5b6602db038c57bf07cebdc471ef2efe3c5d24f5ecb2f690a3b235c332",
+          "size_bytes": 153374
+        },
+        {
+          "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\training_subset_census_shard_6_of_8.jsonl",
+          "read_only": false,
+          "sha256": "5f5c33aa3ca4a6eb2ff46910545c3162d0624ff5bd8f364d3ca07838c8d8a716",
+          "size_bytes": 153533
+        },
+        {
+          "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\training_subset_census_shard_7_of_8.jsonl",
+          "read_only": false,
+          "sha256": "394d2d217237e809e9b93ea08412af2b63e1b299a77c545eb338ed600f0c1dbd",
+          "size_bytes": 156026
+        }
+      ],
+      "censused_training_sessions": 725,
+      "eligible_route_query_count_in_censused_sessions": 4202880,
+      "no_extrapolation_to_920_sessions": true,
+      "status": "incomplete_existing_artifacts_only_not_resumed",
+      "training_partition_sessions": 920,
+      "uncensused_training_sessions": 195,
+      "valid_target_count_by_horizon_seconds_in_censused_sessions": {
+        "10": 4170260,
+        "15": 4138102,
+        "20": 4106219,
+        "25": 4074645,
+        "30": 4043309,
+        "35": 4012276,
+        "40": 3981456,
+        "45": 3950877,
+        "5": 4202760,
+        "50": 3920537,
+        "55": 3890426,
+        "60": 3860541
+      },
+      "valid_target_count_in_censused_sessions": 48351408
+    },
+    "sampled_training_routes_per_complete_epoch": 14720,
+    "sampled_training_valid_targets_epoch_20": 169490,
+    "split": {
+      "test": 115,
+      "train": 920,
+      "validation": 115
+    },
+    "total_sessions": 1150
+  },
+  "dataset_scale_causal_effect_identifiable": false,
+  "dataset_scale_conclusion": "The earlier decoder aligns on architecture, targets, masks, coordinate units, horizons, and route-NLL reduction, but simultaneous changes in data population, encoder policy, compute, and schedule prevent identification of the causal effect of dataset scale from completed runs alone.",
+  "earlier_decoder_alignment": {
+    "material_uncontrolled_differences": [
+      "86 versus 920 training sessions from different data vintages",
+      "11 versus 115 different validation sessions",
+      "encoder fine-tuned after epoch 1 versus encoder frozen for all updates",
+      "860 versus 9,200 optimizer updates and different schedules"
+    ],
+    "same_architecture_id": true,
+    "same_coordinate_units": true,
+    "same_horizons": true,
+    "same_route_nll_reduction_family": true,
+    "same_target_contract": true
+  },
+  "existing_completed_artifacts_only": true,
+  "historical_encoder_loss_boundary": {
+    "current_decoder_route_nll": 7.004335993010065,
+    "direct_numeric_comparison_performed": false,
+    "historical_value": 17.46510212045403,
+    "reason": "The historical value is a sum of categorical cross-entropies at three independent horizons; the decoder value is a continuous coherent-route mixture density NLL."
+  },
+  "original_small_dataset": {
+    "split": {
+      "test": 10,
+      "train": 86,
+      "validation": 11
+    },
+    "total_sessions": 107,
+    "validation_query_count": 352,
+    "validation_route_nll": 11.876513382589275,
+    "validation_valid_target_count": 4110
+  },
+  "payload_sha256": "603d60a7d3b590fbaf86753455ee1ae5f4ca9cdf943fe21424f22eec969bf6ef",
+  "scale_models_launched": false,
+  "schema_version": "fncs-decoder-evaluation-historical-comparability:1.0",
+  "source_artifacts": [
+    {
+      "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\historical_comparability.json",
+      "read_only": true,
+      "sha256": "78c5ba37a81a11d05f9958ed5e73ca69c0eb8f17a6b4e12b2b2e72ad36ec90cb",
+      "size_bytes": 10749
+    },
+    {
+      "path": "C:\\Users\\c\\Documents\\FN\\audit\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-finalization-20260902\\training_metrics_summary.json",
+      "read_only": true,
+      "sha256": "cb5df7d2b08b20942cf94602931ec24e1965f27c90f786d0df94a3ebb57c7a5d",
+      "size_bytes": 9471
+    }
+  ],
+  "unfinished_training_census_resumed": false
+}

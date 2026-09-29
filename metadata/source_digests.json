@@ -1,0 +1,31 @@
+{
+  "schema_version": "public-source-digests:1.0",
+  "hash_contract": "UTF8(relative POSIX path) || NUL || raw SHA-256 bytes for each *.py file",
+  "packages": {
+    "encoder": {
+      "path": "ml/src/fortnite_encoder",
+      "source_tree_sha256": "a0eb81ae908cfe5dd7c48da0834e129312687f59f80c8c074a983d612944f56e",
+      "python_file_count": 25
+    },
+    "decoder_architecture": {
+      "path": "ml/src/fortnite_parallel_trajectory",
+      "source_tree_sha256": "be612a30a94781a8702af1940e3f87da85542a277797419e429d9b0a54fcf29d",
+      "python_file_count": 8
+    },
+    "verified_training_helpers": {
+      "path": "ml/src/fortnite_parallel_trajectory_training",
+      "source_tree_sha256": "e5849dea664f9166c3244e53c9475c740d9285c58d1106ecf714258f3029bae2",
+      "python_file_count": 11
+    },
+    "final_fncs_training": {
+      "path": "ml/src/fortnite_parallel_trajectory_fncs_training",
+      "source_tree_sha256": "50c0a0bf1ffa0f02323b4594670cbfecdb4918afd7196b93226a6f14835f4177",
+      "python_file_count": 10
+    },
+    "parent_fncs_training": {
+      "source_tree_sha256": "1f477ba9f91bf652367ea903d35af06b0a5466cc09f511252ae18f4f069882bd",
+      "parent_training_py_sha256": "78036feeccb7907ee55c9344d167025533049189f73d0fe3d4cfeb39ad04fe90",
+      "archived_source_path": "evidence/lineage/parent_training.py"
+    }
+  }
+}

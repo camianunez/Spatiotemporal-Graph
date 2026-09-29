@@ -1,0 +1,10 @@
+{
+  "checkpoint": "best.pt",
+  "checkpoint_sha256": "7e210adfb5453511dd4cda35c1db968245921f8e08848fa51dfb035eaa07adc6",
+  "completed_epoch": 20,
+  "optimizer_step": 9200,
+  "oracle_metrics_used_for_selection": false,
+  "selection_metric": "validation_route_mixture_nll",
+  "test_information_used_for_selection": false,
+  "value": 7.004335993010065
+}

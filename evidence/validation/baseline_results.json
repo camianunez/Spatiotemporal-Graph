@@ -1,0 +1,702 @@
+{
+  "common_point_metrics": {
+    "constant_velocity": {
+      "ade_meters": 114.98998450046952,
+      "aggregate_trajectory_hit_rate_through_horizon": {
+        "15": {
+          "within_1_cells": 0.9177694624440996,
+          "within_2_cells": 0.9818380943688966,
+          "within_4_cells": 0.994250250981108
+        },
+        "30": {
+          "within_1_cells": 0.7736145078676573,
+          "within_2_cells": 0.929075723316875,
+          "within_4_cells": 0.9845876978450464
+        },
+        "45": {
+          "within_1_cells": 0.6559267107067182,
+          "within_2_cells": 0.8571918235074162,
+          "within_4_cells": 0.9632307117038514
+        },
+        "60": {
+          "within_1_cells": 0.5689341062344729,
+          "within_2_cells": 0.7838163965456051,
+          "within_4_cells": 0.9354312078551993
+        }
+      },
+      "fde_60_meters": 226.32976609439564,
+      "last_valid_horizon_fde_meters": 215.65167458869746,
+      "nonfinite_scored_error_count": 0,
+      "per_horizon": {
+        "10": {
+          "mean_euclidean_error_meters": 34.16333435500735,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.9282388386743358,
+            "within_2_cells": 0.9893179950698439,
+            "within_4_cells": 0.9939742536291427
+          },
+          "valid_target_count": 3651
+        },
+        "15": {
+          "mean_euclidean_error_meters": 52.853533141628304,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.8348041919470491,
+            "within_2_cells": 0.9616657473800331,
+            "within_4_cells": 0.9917264202978489
+          },
+          "valid_target_count": 3626
+        },
+        "20": {
+          "mean_euclidean_error_meters": 71.1577950425532,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.7202777777777778,
+            "within_2_cells": 0.9227777777777778,
+            "within_4_cells": 0.9866666666666667
+          },
+          "valid_target_count": 3600
+        },
+        "25": {
+          "mean_euclidean_error_meters": 89.97742615757177,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.6237402015677491,
+            "within_2_cells": 0.8798992161254199,
+            "within_4_cells": 0.9773236282194849
+          },
+          "valid_target_count": 3572
+        },
+        "30": {
+          "mean_euclidean_error_meters": 109.22002419733006,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.5330321852060983,
+            "within_2_cells": 0.8218520609824957,
+            "within_4_cells": 0.9599096555618295
+          },
+          "valid_target_count": 3542
+        },
+        "35": {
+          "mean_euclidean_error_meters": 129.19606763687247,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.4631849315068493,
+            "within_2_cells": 0.7648401826484018,
+            "within_4_cells": 0.9389269406392694
+          },
+          "valid_target_count": 3504
+        },
+        "40": {
+          "mean_euclidean_error_meters": 148.6088767934975,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.4055299539170507,
+            "within_2_cells": 0.7021889400921659,
+            "within_4_cells": 0.9199308755760369
+          },
+          "valid_target_count": 3472
+        },
+        "45": {
+          "mean_euclidean_error_meters": 168.00164768801156,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.3640058055152395,
+            "within_2_cells": 0.6551523947750363,
+            "within_4_cells": 0.8972423802612481
+          },
+          "valid_target_count": 3445
+        },
+        "5": {
+          "mean_euclidean_error_meters": 16.550104712017042,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.9891304347826086,
+            "within_2_cells": 0.9942934782608696,
+            "within_4_cells": 0.9970108695652173
+          },
+          "valid_target_count": 3680
+        },
+        "50": {
+          "mean_euclidean_error_meters": 187.57760708317372,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.3232796486090776,
+            "within_2_cells": 0.5979502196193265,
+            "within_4_cells": 0.8749633967789165
+          },
+          "valid_target_count": 3415
+        },
+        "55": {
+          "mean_euclidean_error_meters": 206.91463316335734,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.2936320754716981,
+            "within_2_cells": 0.546875,
+            "within_4_cells": 0.8466981132075472
+          },
+          "valid_target_count": 3392
+        },
+        "60": {
+          "mean_euclidean_error_meters": 226.32976609439564,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.26619132501485443,
+            "within_2_cells": 0.5115864527629234,
+            "within_4_cells": 0.8211527035056447
+          },
+          "valid_target_count": 3366
+        }
+      },
+      "valid_query_count": 3680,
+      "valid_target_count": 42265
+    },
+    "decoder_highest_probability_mode_mean": {
+      "ade_meters": 75.12799876642052,
+      "aggregate_trajectory_hit_rate_through_horizon": {
+        "15": {
+          "within_1_cells": 0.9344711143561194,
+          "within_2_cells": 0.9911472118280551,
+          "within_4_cells": 0.9971707584192754
+        },
+        "30": {
+          "within_1_cells": 0.8115915278482765,
+          "within_2_cells": 0.9663605740390383,
+          "within_4_cells": 0.9945087905495824
+        },
+        "45": {
+          "within_1_cells": 0.7209273339149944,
+          "within_2_cells": 0.9204163031285055,
+          "within_4_cells": 0.9896547426149819
+        },
+        "60": {
+          "within_1_cells": 0.6529989352892465,
+          "within_2_cells": 0.8745534129894712,
+          "within_4_cells": 0.9823967822075003
+        }
+      },
+      "fde_60_meters": 127.72522990687654,
+      "last_valid_horizon_fde_meters": 121.33038903169292,
+      "nonfinite_scored_error_count": 0,
+      "per_horizon": {
+        "10": {
+          "mean_euclidean_error_meters": 31.384183298555307,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.9493289509723364,
+            "within_2_cells": 0.9942481511914544,
+            "within_4_cells": 0.9975349219391948
+          },
+          "valid_target_count": 3651
+        },
+        "15": {
+          "mean_euclidean_error_meters": 44.52514960796342,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.8618312189740761,
+            "within_2_cells": 0.9820739106453392,
+            "within_4_cells": 0.9955874241588527
+          },
+          "valid_target_count": 3626
+        },
+        "20": {
+          "mean_euclidean_error_meters": 55.936276570346735,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.7583333333333333,
+            "within_2_cells": 0.9677777777777777,
+            "within_4_cells": 0.9938888888888889
+          },
+          "valid_target_count": 3600
+        },
+        "25": {
+          "mean_euclidean_error_meters": 66.17343915177693,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.6783314669652856,
+            "within_2_cells": 0.9456886898096305,
+            "within_4_cells": 0.9916013437849944
+          },
+          "valid_target_count": 3572
+        },
+        "30": {
+          "mean_euclidean_error_meters": 75.71606209046996,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.6199887069452287,
+            "within_2_cells": 0.9090909090909091,
+            "within_4_cells": 0.9898362507058159
+          },
+          "valid_target_count": 3542
+        },
+        "35": {
+          "mean_euclidean_error_meters": 86.13540548185694,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.5759132420091324,
+            "within_2_cells": 0.8618721461187214,
+            "within_4_cells": 0.9843036529680366
+          },
+          "valid_target_count": 3504
+        },
+        "40": {
+          "mean_euclidean_error_meters": 95.98182520594717,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.5293778801843319,
+            "within_2_cells": 0.8202764976958525,
+            "within_4_cells": 0.9801267281105991
+          },
+          "valid_target_count": 3472
+        },
+        "45": {
+          "mean_euclidean_error_meters": 104.46247833881661,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.4911465892597968,
+            "within_2_cells": 0.7918722786647315,
+            "within_4_cells": 0.9741654571843251
+          },
+          "valid_target_count": 3445
+        },
+        "5": {
+          "mean_euclidean_error_meters": 17.315992054844322,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.991304347826087,
+            "within_2_cells": 0.9970108695652173,
+            "within_4_cells": 0.9983695652173913
+          },
+          "valid_target_count": 3680
+        },
+        "50": {
+          "mean_euclidean_error_meters": 112.45892422722123,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.4588579795021962,
+            "within_2_cells": 0.7613469985358712,
+            "within_4_cells": 0.9686676427525622
+          },
+          "valid_target_count": 3415
+        },
+        "55": {
+          "mean_euclidean_error_meters": 120.11358971035747,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.439563679245283,
+            "within_2_cells": 0.7270047169811321,
+            "within_4_cells": 0.9599056603773585
+          },
+          "valid_target_count": 3392
+        },
+        "60": {
+          "mean_euclidean_error_meters": 127.72522990687654,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.4174093879976233,
+            "within_2_cells": 0.7008318478906714,
+            "within_4_cells": 0.9497920380273321
+          },
+          "valid_target_count": 3366
+        }
+      },
+      "valid_query_count": 3680,
+      "valid_target_count": 42265
+    },
+    "static_position": {
+      "ade_meters": 80.12382756646954,
+      "aggregate_trajectory_hit_rate_through_horizon": {
+        "15": {
+          "within_1_cells": 0.9156703477229169,
+          "within_2_cells": 0.985762526238934,
+          "within_4_cells": 0.9969882267043899
+        },
+        "30": {
+          "within_1_cells": 0.8005168197129805,
+          "within_2_cells": 0.9481795948502607,
+          "within_4_cells": 0.99307830741544
+        },
+        "45": {
+          "within_1_cells": 0.7125140221862146,
+          "within_2_cells": 0.8938364701483236,
+          "within_4_cells": 0.9851053221986787
+        },
+        "60": {
+          "within_1_cells": 0.6425411096652076,
+          "within_2_cells": 0.8398911629007453,
+          "within_4_cells": 0.9724594818407666
+        }
+      },
+      "fde_60_meters": 143.7114808697539,
+      "last_valid_horizon_fde_meters": 136.2329017840638,
+      "nonfinite_scored_error_count": 0,
+      "per_horizon": {
+        "10": {
+          "mean_euclidean_error_meters": 30.792969003552642,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.9254998630512189,
+            "within_2_cells": 0.9895918926321555,
+            "within_4_cells": 0.997261024376883
+          },
+          "valid_target_count": 3651
+        },
+        "15": {
+          "mean_euclidean_error_meters": 44.188892453904806,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.8353557639271925,
+            "within_2_cells": 0.9704908990623277,
+            "within_4_cells": 0.995311638168781
+          },
+          "valid_target_count": 3626
+        },
+        "20": {
+          "mean_euclidean_error_meters": 56.1597797707168,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.7436111111111111,
+            "within_2_cells": 0.9455555555555556,
+            "within_4_cells": 0.9941666666666666
+          },
+          "valid_target_count": 3600
+        },
+        "25": {
+          "mean_euclidean_error_meters": 67.74564997727204,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.6780515117581187,
+            "within_2_cells": 0.9165733482642777,
+            "within_4_cells": 0.9899216125419933
+          },
+          "valid_target_count": 3572
+        },
+        "30": {
+          "mean_euclidean_error_meters": 79.42863973896951,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.6256352343308865,
+            "within_2_cells": 0.8664596273291926,
+            "within_4_cells": 0.9830604178430266
+          },
+          "valid_target_count": 3542
+        },
+        "35": {
+          "mean_euclidean_error_meters": 91.06869624633902,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.5730593607305936,
+            "within_2_cells": 0.8230593607305936,
+            "within_4_cells": 0.978310502283105
+          },
+          "valid_target_count": 3504
+        },
+        "40": {
+          "mean_euclidean_error_meters": 102.43443033290905,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.5285138248847926,
+            "within_2_cells": 0.7788018433179723,
+            "within_4_cells": 0.9691820276497696
+          },
+          "valid_target_count": 3472
+        },
+        "45": {
+          "mean_euclidean_error_meters": 113.16526618048974,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.4862119013062409,
+            "within_2_cells": 0.7399129172714078,
+            "within_4_cells": 0.9579100145137881
+          },
+          "valid_target_count": 3445
+        },
+        "5": {
+          "mean_euclidean_error_meters": 16.778541752195697,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.9850543478260869,
+            "within_2_cells": 0.9970108695652173,
+            "within_4_cells": 0.9983695652173913
+          },
+          "valid_target_count": 3680
+        },
+        "50": {
+          "mean_euclidean_error_meters": 123.73487720939526,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.4497803806734993,
+            "within_2_cells": 0.7019033674963396,
+            "within_4_cells": 0.9475841874084919
+          },
+          "valid_target_count": 3415
+        },
+        "55": {
+          "mean_euclidean_error_meters": 133.937864554218,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.4209905660377358,
+            "within_2_cells": 0.6662735849056604,
+            "within_4_cells": 0.9330778301886793
+          },
+          "valid_target_count": 3392
+        },
+        "60": {
+          "mean_euclidean_error_meters": 143.7114808697539,
+          "trajectory_hit_rate": {
+            "within_1_cells": 0.3942364824717766,
+            "within_2_cells": 0.6405228758169934,
+            "within_4_cells": 0.916815210932858
+          },
+          "valid_target_count": 3366
+        }
+      },
+      "valid_query_count": 3680,
+      "valid_target_count": 42265
+    }
+  },
+  "constant_velocity_static_fallback_count": 24,
+  "created_utc": "2026-09-02T21:41:39.513100+00:00",
+  "decoder_baseline_decisions": {
+    "by_metric": {
+      "decoder_minus_constant_velocity": {
+        "ade_meters": true,
+        "fde_60_meters": true,
+        "last_valid_fde_meters": true
+      },
+      "decoder_minus_static": {
+        "ade_meters": true,
+        "fde_60_meters": true,
+        "last_valid_fde_meters": true
+      }
+    },
+    "criterion": "Lower central error and a paired session-bootstrap 95% CI wholly below zero for ADE, 60-second FDE, and last-valid-horizon FDE.",
+    "decoder_outperforms_constant_velocity": true,
+    "decoder_outperforms_static": true
+  },
+  "deterministic_baseline_nll": null,
+  "deterministic_baseline_nll_reason": "Unavailable: no predeclared probabilistic scale/covariance contract exists, so no NLL is fabricated.",
+  "development_validation_only": true,
+  "largest_central_error_gain_over_constant_velocity": {
+    "constant_velocity_error_meters": 226.32976609439564,
+    "decoder_error_meters": 127.72522990687654,
+    "decoder_gain_over_constant_velocity_meters": 98.6045361875191,
+    "decoder_gain_over_static_meters": 15.986250962877364,
+    "decoder_minus_constant_velocity_95_percent_ci_meters": [
+      -111.11449822408468,
+      -87.07656934128289
+    ],
+    "decoder_minus_static_95_percent_ci_meters": [
+      -19.46716796244257,
+      -12.420844508258714
+    ],
+    "horizon_seconds": 60,
+    "static_error_meters": 143.7114808697539
+  },
+  "largest_central_error_gain_over_static": {
+    "constant_velocity_error_meters": 226.32976609439564,
+    "decoder_error_meters": 127.72522990687654,
+    "decoder_gain_over_constant_velocity_meters": 98.6045361875191,
+    "decoder_gain_over_static_meters": 15.986250962877364,
+    "decoder_minus_constant_velocity_95_percent_ci_meters": [
+      -111.11449822408468,
+      -87.07656934128289
+    ],
+    "decoder_minus_static_95_percent_ci_meters": [
+      -19.46716796244257,
+      -12.420844508258714
+    ],
+    "horizon_seconds": 60,
+    "static_error_meters": 143.7114808697539
+  },
+  "method_definitions": {
+    "causal_policy": "Baselines operate only on sanitized causal model inputs.",
+    "constant_velocity": "Use the most recent earlier valid living-team centroid in the causal 64-tick window with an unchanged roster alive-mask and life indices, stopping at the first lifecycle discontinuity; extrapolate uncapped XY velocity to each horizon. Fall back to static if no such positive-delta observation exists.",
+    "decoder": "Choose one coherent route: the five-mode route with greatest mixture probability (first mode on an exact tie), then use that mode's mean XY at all horizons.",
+    "deterministic_baseline_nll": "Unavailable: no predeclared probabilistic scale/covariance contract exists, so no NLL is fabricated.",
+    "static_position": "Repeat the causal query-time living-team centroid at every horizon."
+  },
+  "payload_sha256": "21deaf8de4af6c8d82f40b7ff92a672caadaf375c2e3c46885128eb5e6221e60",
+  "per_horizon_error_gains": [
+    {
+      "constant_velocity_error_meters": 16.550104712017042,
+      "decoder_error_meters": 17.315992054844322,
+      "decoder_gain_over_constant_velocity_meters": -0.7658873428272805,
+      "decoder_gain_over_static_meters": -0.5374503026486259,
+      "decoder_minus_constant_velocity_95_percent_ci_meters": [
+        -0.19819797759319388,
+        1.6444766905101535
+      ],
+      "decoder_minus_static_95_percent_ci_meters": [
+        0.21207803211586684,
+        0.8608273100620958
+      ],
+      "horizon_seconds": 5,
+      "static_error_meters": 16.778541752195697
+    },
+    {
+      "constant_velocity_error_meters": 34.16333435500735,
+      "decoder_error_meters": 31.384183298555307,
+      "decoder_gain_over_constant_velocity_meters": 2.7791510564520436,
+      "decoder_gain_over_static_meters": -0.5912142950026649,
+      "decoder_minus_constant_velocity_95_percent_ci_meters": [
+        -4.666533856523202,
+        -1.0425818756871719
+      ],
+      "decoder_minus_static_95_percent_ci_meters": [
+        -0.06712335282004839,
+        1.2330855168727675
+      ],
+      "horizon_seconds": 10,
+      "static_error_meters": 30.792969003552642
+    },
+    {
+      "constant_velocity_error_meters": 52.853533141628304,
+      "decoder_error_meters": 44.52514960796342,
+      "decoder_gain_over_constant_velocity_meters": 8.328383533664883,
+      "decoder_gain_over_static_meters": -0.33625715405861456,
+      "decoder_minus_constant_velocity_95_percent_ci_meters": [
+        -11.17740477802038,
+        -5.712241557751545
+      ],
+      "decoder_minus_static_95_percent_ci_meters": [
+        -0.6962033633134281,
+        1.3749124039582004
+      ],
+      "horizon_seconds": 15,
+      "static_error_meters": 44.188892453904806
+    },
+    {
+      "constant_velocity_error_meters": 71.1577950425532,
+      "decoder_error_meters": 55.936276570346735,
+      "decoder_gain_over_constant_velocity_meters": 15.22151847220647,
+      "decoder_gain_over_static_meters": 0.2235032003700681,
+      "decoder_minus_constant_velocity_95_percent_ci_meters": [
+        -19.021452338918735,
+        -11.764130703317878
+      ],
+      "decoder_minus_static_95_percent_ci_meters": [
+        -1.6438940190790565,
+        1.177088495246591
+      ],
+      "horizon_seconds": 20,
+      "static_error_meters": 56.1597797707168
+    },
+    {
+      "constant_velocity_error_meters": 89.97742615757177,
+      "decoder_error_meters": 66.17343915177693,
+      "decoder_gain_over_constant_velocity_meters": 23.803987005794838,
+      "decoder_gain_over_static_meters": 1.5722108254951053,
+      "decoder_minus_constant_velocity_95_percent_ci_meters": [
+        -28.560148355838432,
+        -19.426266331680853
+      ],
+      "decoder_minus_static_95_percent_ci_meters": [
+        -3.2908109261217544,
+        0.12841161474178014
+      ],
+      "horizon_seconds": 25,
+      "static_error_meters": 67.74564997727204
+    },
+    {
+      "constant_velocity_error_meters": 109.22002419733006,
+      "decoder_error_meters": 75.71606209046996,
+      "decoder_gain_over_constant_velocity_meters": 33.5039621068601,
+      "decoder_gain_over_static_meters": 3.712577648499547,
+      "decoder_minus_constant_velocity_95_percent_ci_meters": [
+        -39.392322046665164,
+        -28.085775546337725
+      ],
+      "decoder_minus_static_95_percent_ci_meters": [
+        -5.763204839642107,
+        -1.6722123699544618
+      ],
+      "horizon_seconds": 30,
+      "static_error_meters": 79.42863973896951
+    },
+    {
+      "constant_velocity_error_meters": 129.19606763687247,
+      "decoder_error_meters": 86.13540548185694,
+      "decoder_gain_over_constant_velocity_meters": 43.060662155015535,
+      "decoder_gain_over_static_meters": 4.933290764482081,
+      "decoder_minus_constant_velocity_95_percent_ci_meters": [
+        -50.01287666782151,
+        -36.65819450156474
+      ],
+      "decoder_minus_static_95_percent_ci_meters": [
+        -7.257390879256712,
+        -2.6570987026560964
+      ],
+      "horizon_seconds": 35,
+      "static_error_meters": 91.06869624633902
+    },
+    {
+      "constant_velocity_error_meters": 148.6088767934975,
+      "decoder_error_meters": 95.98182520594717,
+      "decoder_gain_over_constant_velocity_meters": 52.627051587550326,
+      "decoder_gain_over_static_meters": 6.4526051269618705,
+      "decoder_minus_constant_velocity_95_percent_ci_meters": [
+        -60.62882385173699,
+        -45.29679489736604
+      ],
+      "decoder_minus_static_95_percent_ci_meters": [
+        -9.022897408718453,
+        -3.9171771714098518
+      ],
+      "horizon_seconds": 40,
+      "static_error_meters": 102.43443033290905
+    },
+    {
+      "constant_velocity_error_meters": 168.00164768801156,
+      "decoder_error_meters": 104.46247833881661,
+      "decoder_gain_over_constant_velocity_meters": 63.53916934919495,
+      "decoder_gain_over_static_meters": 8.702787841673128,
+      "decoder_minus_constant_velocity_95_percent_ci_meters": [
+        -72.51238781803585,
+        -55.27004449023352
+      ],
+      "decoder_minus_static_95_percent_ci_meters": [
+        -11.531843119187178,
+        -5.861503469062373
+      ],
+      "horizon_seconds": 45,
+      "static_error_meters": 113.16526618048974
+    },
+    {
+      "constant_velocity_error_meters": 187.57760708317372,
+      "decoder_error_meters": 112.45892422722123,
+      "decoder_gain_over_constant_velocity_meters": 75.11868285595249,
+      "decoder_gain_over_static_meters": 11.275952982174033,
+      "decoder_minus_constant_velocity_95_percent_ci_meters": [
+        -85.31918356542903,
+        -65.73221085734845
+      ],
+      "decoder_minus_static_95_percent_ci_meters": [
+        -14.311339157670277,
+        -8.179980614255284
+      ],
+      "horizon_seconds": 50,
+      "static_error_meters": 123.73487720939526
+    },
+    {
+      "constant_velocity_error_meters": 206.91463316335734,
+      "decoder_error_meters": 120.11358971035747,
+      "decoder_gain_over_constant_velocity_meters": 86.80104345299986,
+      "decoder_gain_over_static_meters": 13.824274843860536,
+      "decoder_minus_constant_velocity_95_percent_ci_meters": [
+        -98.23584462304893,
+        -76.34543286259007
+      ],
+      "decoder_minus_static_95_percent_ci_meters": [
+        -17.127048820290682,
+        -10.456065369207458
+      ],
+      "horizon_seconds": 55,
+      "static_error_meters": 133.937864554218
+    },
+    {
+      "constant_velocity_error_meters": 226.32976609439564,
+      "decoder_error_meters": 127.72522990687654,
+      "decoder_gain_over_constant_velocity_meters": 98.6045361875191,
+      "decoder_gain_over_static_meters": 15.986250962877364,
+      "decoder_minus_constant_velocity_95_percent_ci_meters": [
+        -111.11449822408468,
+        -87.07656934128289
+      ],
+      "decoder_minus_static_95_percent_ci_meters": [
+        -19.46716796244257,
+        -12.420844508258714
+      ],
+      "horizon_seconds": 60,
+      "static_error_meters": 143.7114808697539
+    }
+  ],
+  "schema_version": "fncs-decoder-evaluation-baselines:1.0",
+  "shared_validation_population": {
+    "query_count": 3680,
+    "same_queries_targets_masks_elimination_missing_policy_horizons_and_units": true,
+    "session_count": 115,
+    "valid_target_count": 42265,
+    "valid_target_count_by_horizon_seconds": {
+      "10": 3651,
+      "15": 3626,
+      "20": 3600,
+      "25": 3572,
+      "30": 3542,
+      "35": 3504,
+      "40": 3472,
+      "45": 3445,
+      "5": 3680,
+      "50": 3415,
+      "55": 3392,
+      "60": 3366
+    }
+  },
+  "terminology": "Reported threshold proportions are trajectory hit rates, not classification accuracy."
+}

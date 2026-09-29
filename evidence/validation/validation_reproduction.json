@@ -1,0 +1,103 @@
+{
+  "absolute_tolerance": 2e-06,
+  "artifacts": {
+    "contract": {
+      "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\validation_comparison_contract.json",
+      "read_only": true,
+      "sha256": "67d546568f448dd3f2cdb3e5d789a057cd8dcaba4b58c3fb84a5f586ee8a153b",
+      "size_bytes": 15769
+    },
+    "decoder_arrays": {
+      "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\raw_validation\\final_step9200.npz",
+      "read_only": false,
+      "sha256": "6d4e98e67ba2b6b134b0f9c3bc911ff2727b28acdbd6eecfcd436de502d60c01",
+      "size_bytes": 1549461
+    },
+    "evaluation_status": {
+      "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\evaluation_status.json",
+      "read_only": false,
+      "sha256": "1f73452d1d6984e74f52cd80bbbd9862db515f03cd91f57a01502df195b5e069",
+      "size_bytes": 1554
+    },
+    "query_manifest": {
+      "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\validation_query_manifest.json",
+      "read_only": false,
+      "sha256": "f9cce96e7b763f169e11bbfe187d5caff7b4cfe1af848a94e883db7582cbff68",
+      "size_bytes": 450983
+    },
+    "shared_arrays": {
+      "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-post-training-analysis-20260902\\raw_validation\\shared_targets_and_baselines.npz",
+      "read_only": false,
+      "sha256": "85076f376d01eb12fd4636ee7853582b97d34a922bc10c14b8e63ec8177ae3f6",
+      "size_bytes": 855896
+    }
+  },
+  "augmentation": false,
+  "checkpoint": {
+    "path": "C:\\Users\\c\\Documents\\FN\\runs\\parallel-trajectory-decoder-v1-fncs-frozen-encoder-run-1-resume-1\\best.pt",
+    "read_only": true,
+    "sha256": "7e210adfb5453511dd4cda35c1db968245921f8e08848fa51dfb035eaa07adc6",
+    "size_bytes": 80313643
+  },
+  "completed_epochs": 20,
+  "count_reproduction": {
+    "expected_valid_queries": 3680,
+    "expected_valid_targets": 42265,
+    "observed_valid_queries": 3680,
+    "observed_valid_targets": 42265,
+    "queries_per_session": [
+      32
+    ],
+    "session_count": 115,
+    "valid_targets_by_horizon_seconds": {
+      "10": 3651,
+      "15": 3626,
+      "20": 3600,
+      "25": 3572,
+      "30": 3542,
+      "35": 3504,
+      "40": 3472,
+      "45": 3445,
+      "5": 3680,
+      "50": 3415,
+      "55": 3392,
+      "60": 3366
+    }
+  },
+  "created_utc": "2026-09-02T21:41:39.519920+00:00",
+  "cuda_bfloat16_autocast": true,
+  "deterministic_order": [
+    "session",
+    "window",
+    "team",
+    "query",
+    "horizon"
+  ],
+  "expected_route_nll": 7.004335993010065,
+  "logical_optimizer_step": 9200,
+  "model_eval_called": true,
+  "observed_minus_expected": 0.0,
+  "observed_route_nll": 7.004335993010065,
+  "payload_sha256": "0ef24594d482157b49cc12ac14be7bc4cf7f27faf7c3b134dd2b4c3bb2723f90",
+  "schema_version": "fncs-decoder-validation-reproduction:1.0",
+  "shuffle": false,
+  "status": "passed",
+  "target_mask_counts": {
+    "eliminated": 1290,
+    "lifecycle_ambiguous": 0,
+    "missing": 0,
+    "nonfinite": 0,
+    "out_of_envelope": 0,
+    "phase_9_terminal": 605,
+    "raw_reason_counts": {
+      "phase_9_terminal": 101,
+      "team_eliminated": 213,
+      "terminal_suffix_after_phase_9_terminal": 504,
+      "terminal_suffix_after_team_eliminated": 1077,
+      "valid": 42265
+    },
+    "valid": 42265
+  },
+  "torch_inference_mode": true,
+  "within_tolerance": true
+}
